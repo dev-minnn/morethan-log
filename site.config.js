@@ -1,33 +1,33 @@
 const CONFIG = {
   // profile setting (required)
   profile: {
-    name: "morethanmin",
-    image: "/avatar.svg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
-    role: "frontend developer",
-    bio: "I develop everything using node.",
-    email: "morethanmin.dev@gmail.com",
-    linkedin: "morethanmin",
-    github: "morethanmin",
+    name: "gmkim",
+    image: "https://raw.githubusercontent.com/dev-minnn/morethan-log/75ff1db9b391337cc992475f7af75063846b62e1/%E1%84%91%E1%85%B5%E1%86%BC%E1%84%80%E1%85%AE.svg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
+    role: "Backend Developer",
+    bio: "鈍筆勝聰 📚",
+    email: "gmkim.dev@gmail.com",
+    linkedin: "gmkim20713",
+    github: "gmkim20713",
     instagram: "",
   },
   projects: [
     {
-      name: `morethan-log`,
-      href: "https://github.com/morethanmin/morethan-log",
+      name: `mafoo`,
+      href: "https://github.com/YAPP-Github/mafoo-backend",
     },
   ],
   // blog setting (required)
   blog: {
-    title: "morethan-log",
-    description: "welcome to morethan-log!",
-    scheme: "dark", // 'light' | 'dark' | 'system'
+    title: "gmkim's devlog",
+    description: "Archive for TILs",
+    scheme: "system", // 'light' | 'dark' | 'system'
   },
 
   // CONFIG configration (required)
   link: "https://morethan-log.vercel.app",
-  since: 2022, // If leave this empty, current year will be used.
+  since: 2020, // If leave this empty, current year will be used.
   lang: "en-US", // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES', 'ko-KR']
-  ogImageGenerateURL: "https://og-image-korean.vercel.app", // The link to generate OG image, don't end with a slash
+  ogImageGenerateURL: "https://raw.githubusercontent.com/dev-minnn/morethan-log/75ff1db9b391337cc992475f7af75063846b62e1/%E1%84%91%E1%85%B5%E1%86%BC%E1%84%80%E1%85%AE.svg", // The link to generate OG image, don't end with a slash
 
   // notion configuration (required)
   notionConfig: {
